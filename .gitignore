@@ -1,0 +1,7 @@
+/.idea
+/.venv
+/dataProfiling.ipynb
+/note.config
+/titanic.csv
+/titanic_report.html
+/ydata.ipynb
