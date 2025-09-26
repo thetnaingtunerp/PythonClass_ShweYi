@@ -1,0 +1,19 @@
+@startuml
+
+class User{
+    -userId:int
+    -name:str 
+    + Order()
+    + Profile()
+    + login()
+
+}
+
+class Order{
+    -date: str 
+    -qty : int
+    + receiveOrder()
+    + cancelOrder()
+}
+
+@enduml

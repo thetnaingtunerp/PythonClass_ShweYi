@@ -1,0 +1,42 @@
+@startuml
+
+
+
+actor User 
+actor Admin
+
+class User{
+    +name :str 
+    + login()
+}
+
+class Order{
+    + qty :int
+    + date : str 
+    + orid :int
+
+    + placeorder()
+}
+
+class Product{
+    + qty :int
+    + date : str 
+    + orid :int
+    + price : int
+
+
+}
+
+class Report{
+    + qty :int
+    + date : str 
+    + orid :int
+}
+
+User --> Order
+
+Admin --> Report 
+
+
+
+@enduml
